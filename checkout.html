@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Lextr Town Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Lextr Town Store</header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="packages.html">Packages</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <section class="checkout-form">
+    <h1>Checkout</h1>
+    <form action="thankyou.html" method="GET">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <select name="package" required>
+        <option value="">Select Package</option>
+        <option value="Cars Package">Cars Package</option>
+        <option value="Restaurants Package">Restaurants Package</option>
+        <option value="Garages Package">Garages Package</option>
+      </select>
+      <button type="submit" class="buy-btn">Proceed to Payment</button>
+    </form>
+  </section>
+  <footer>&copy; 2025 Lextr Town Store. All rights reserved.</footer>
+</body>
+</html>
